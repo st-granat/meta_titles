@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'meta_titles/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "meta_titles"
   gem.version       = MetaTitles::VERSION
   gem.authors       = ["Andrey"]
