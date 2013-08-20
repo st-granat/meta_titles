@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Meta Titles for Rails Backend App in one .yml file"
   gem.summary       = "summary"
-  gem.homepage      = "https://github.com/vav/meta_titles"
+  gem.homepage      = "https://github.com/st-granat/meta_titles"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
